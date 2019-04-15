@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body class="body">
+    <header class="cabecalho">
+        <h1>Fernando Gürtler</h1>
+        <h2>Primeiro trabalho</h2>
+
+        <nav>
+            <button onClick="clique()"> Clique aqui! </button>
+        </nav>
+    </header>
+
+    <main class="main">
+        <span>
+            OLÁ, SEJA BEM-VINDO AO MEU SITE
+        </span>
+
+        <p id="paragrafo">
+            Sou nascido na cidade de Hanau, na Alemanha em 25 de abril de 2000. <br>
+            Estudante de Sistemas de Informação na Universidade de São Paulo. <br>
+            Diretor Comercial do Diretório Acadêmico de Sistemas de Informação (DASI-USP) <br>
+        </p>
+    </main>
+
+    <footer class="rodape">
+        Fui eu q fis... 2019 ©
+    </footer>
+</body>
+
+<script>
+    function clique() {
+        var texto = document.getElementById('paragrafo')
+        var textoFinal = 'Obrigado por visitar meu site! Se quiser me contatar, faça-o por meio do: Telegram: @gurtler1 ------- WhatsApp: +55 19 992320881 ------- Facebook: Fernando Gürtler ------- E-mail: fer2000@usp.br'
+
+        if(texto.textContent == 'Sou nascido na cidade de Hanau, na Alemanha em 25 de abril de 2000. Estudante de Sistemas de Informação na Universidade de São Paulo. Diretor Comercial do Diretório Acadêmico de Sistemas de Informação (DASI-USP) <br>') {
+            texto.textContent = textoFinal
+        } else if(texto.textContent = textoFinal) {
+            texto.textContent = 'Sou nascido na cidade de Hanau, na Alemanha em 25 de abril de 2000. Estudante de Sistemas de Informação na Universidade de São Paulo. Diretor Comercial do Diretório Acadêmico de Sistemas de Informação (DASI-USP) <br>'
+        }
+    }
+</script>
+
+</html>

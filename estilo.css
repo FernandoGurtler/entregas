@@ -1,0 +1,48 @@
+.body {
+    background-color: blueviolet;
+}
+
+.cabecalho {
+    background-image: url("cabecalho.jpg");
+    margin-top: -100px;
+    margin-left: -100px;
+    margin-right: -100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    min-width: 250px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 83.3%;
+    background-color: #8C6F98;
+}
+h2 {
+    min-width: 190px;
+    margin-left: 100px;
+    margin-right: 86.3%;
+    background-color: #8C6F98;
+}
+nav {
+    margin-left: 100px;
+}
+
+.main {
+    min-width: 350px;
+    max-width: 83%;
+    margin: 100px;
+    font-size: 90px;
+    background-image: url("body.jpg")
+}
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.rodape {
+    clear: both;
+    position: relative;
+    margin-top: 32%;
+}
